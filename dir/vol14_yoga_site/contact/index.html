@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Description" content="お問い合わせ">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css">
+<link rel="stylesheet" href="../asset/css/style.css">
+</head>
+
+<body>
+	<header>
+		<div class="header01">
+			<h1><a href="../index.html"><img src="../asset/img/title.svg" alt="タイトル"></a></h1>
+			<nav>
+				<ul>
+					<li><a href="../about/index.html">About</a></li>
+					<li><a href="../lesson/index.html">Lesson</a></li>
+					<li><a href="../single/index.html">Column</a></li>
+					<li><a href="../contact/index.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="header_contact">
+			<h2>Contact</h2>
+		</div>
+	</header>
+	<form action="">
+		<ul>
+			<li class="form_bar">
+				<label for="name" class="bold">お名前<span>必須</span></label>
+				<input type="text" id="name" class="w525">
+			</li>
+			<li class="form_bar">
+				<label for="address" class="bold">住所</label>
+				<input type="text" id="address" class="w525">
+			</li>
+			<li class="form_bar">
+				<label for="phone" class="bold">電話番号</label>
+				<input type="tel" id="phone" class="w525">
+			</li>
+			<li class="form_bar">
+				<label for="email" class="bold">メールアドレス<span>必須</span></label>
+				<input type="email" id="email" class="w525">
+			</li>
+			<li class="form_bar">
+				<label for="content_check" class="bold">お問い合わせ内容<span>必須</span></label>
+				<div class="content">
+					<input type="checkbox" id="class"><label for="class">クラスのお申し込み</label>
+					<input type="checkbox" id="other"><label for="other">その他お問い合わせ</label>
+				</div>
+			</li>
+			<li class="form_bar">
+				<label for="class" class="bold">ご希望のクラス</label>
+				<select name="class" id="form_class" class="w525">
+					<option>選択してください</option>
+				</select>
+				<div class="form_triangle spec_tr"></div>
+			</li>
+			<li class="form_bar">
+				<label for="date" class="bold">ご案内希望日</label>
+				<div class="hope">
+					<div>
+						<label for="first">第1ご希望日</label>
+						<select name="first" id="first">
+							<option>日程を選択</option>
+						</select>
+						<div class="form_triangle a_t"></div>
+					</div>
+					<div>
+						<label for="second">第2ご希望日</label>
+						<select name="second" id="second">
+							<option>日程を選択</option>
+						</select>
+						<div class="form_triangle a_t"></div>
+					</div>
+				</div>
+			</li>
+			<li class="form_bar">
+				<label for="message" class="bold">お問い合わせ内容<span>必須</span></label>
+				<textarea name="message" id="message"></textarea>
+			</li>
+			<li>
+				<p>ヨガカフェソラ  （以下，「当社」といいます。）は，本ウェブサイト上で提供するサービス（以下,「本<br>
+サービス」といいます。）における，ユーザーの個人情報の取扱いについて，以下のとおりプラ<br>
+イバシーポリシー（以下，「本ポリシー」といいます。）を定めます。<br>
+<br>
+第1条（個人情報）<br>
+「個人情報」とは，個人情報保護法にいう「個人情報」を指すものとし，生存する個人に関する<br>
+情報であって，当該情報に含まれる氏名，生年月日，住所，電話番号，連絡先その他の記述等により特定の個人を識別できる情報及び容貌，指紋，声紋にかかるデータ，及</p>
+			</li>
+			<li class="confirm" id="confirm_li">
+				<input type="checkbox" id="confirm">
+				<label for="confirm"><span>必須</span>上記プライバシーポリシーに同意します</label>
+			</li>
+			<li class="submit">
+				<input type="submit" value="送信">
+			</li>
+		</ul>
+	</form>
+	<section class="footer">
+		<div class="footer02">
+			<div>
+				<a href="../index.html"><img src="../asset/img/title.svg" alt=""></a>
+				<p>〒123-4453<br>
+愛知県名古屋市中区栄00−0<br><br>
+
+mail：info@nagoya_you_are.com<br>
+TEL：030-4438-0322<br>
+（メール優先）</p>
+			</div>
+			<ul>
+				<li><a href="../index.html" class="bar">TOP</a></li>
+				<li><a href="../about/index.html" class="bar">About</a></li>
+				<li><a href="../lesson/index.html" class="bar">Lesson</a></li>
+				<li><a href="../single/index.html" class="bar">Column</a></li>
+				<li><a href="../contact/index.html" class="bar">Contact</a></li>
+			</ul>
+		</div>
+		<div class="footer03">
+			<p>©︎yogacafe sora All rights reserved.</p>
+		</div>
+	</section>
+</body>
+</html>

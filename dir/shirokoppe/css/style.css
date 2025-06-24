@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/*共通事項
+--------------------*/
+html{
+	font-size: 100%;
+}
+body{
+	color: #111;
+	line-height: 1.8;
+}
+img{
+	height: auto;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+	transition: 0.2s;
+}
+a:hover{
+	opacity: 0.5;
+	transition: 0.3s;
+}
+
+.wrapper{
+	width: 80%;
+	max-width: 1250px;
+	margin: auto;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 65px 0;
+	align-items: center;
+}
+.title{
+	width: 30%;
+}
+.nav-container{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+.main-nav{
+	width: 65%;
+}
+.main-nav ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main-nav li{
+	width: 19%;
+}
+.main-nav a{
+	display: flex;
+}
+.sns-nav{
+	width: 19%;
+}
+.sns-nav ul{
+	display: flex;
+	justify-content: space-between;
+}
+.sns-nav li{
+	width: 25%;
+}
+.sns-nav a{
+	display: flex;
+}
+.info{
+	letter-spacing: 0.1em;
+}
+.info-title{
+	font-size: 27px;
+	font-weight: 550;
+	text-align: center;
+	margin: 50px 0;
+	letter-spacing: 0.2em;
+}
+.info-list{
+	width: 920px;
+	margin: auto;
+}
+.info-content{
+	display: flex;
+	justify-content: space-between;
+}
+.info-list dt{
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 0;
+}
+.info-list dd{
+	font-size: 17px;
+	margin-bottom: 30px;
+	width: 615px;
+}
+.see-more{
+	width: 920px;
+	margin: auto;
+	text-align: right;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+.see-more a{
+	border-bottom: 3px solid black;
+	padding-bottom: 4px;
+	letter-spacing: 0.3em;
+}
+.about-comeca{
+	width: 620px;
+    height: 75px;
+    margin: auto;
+    font-size: 19px;
+    border: 2px solid black;
+    border-radius: 7px;
+    display: block;
+    text-align: center;
+    align-content: center;
+	margin-bottom: 65px;
+}
+.menu-box{
+	display: flex;
+	justify-content: space-between;
+}
+.menu-box-item{
+	width: 28%;
+}
+.footer{
+	text-align: center;
+}
+.footer-links{
+	width: 215px;
+	display: flex;
+	justify-content: space-between;
+	margin: 65px auto 0;
+	font-size: 18px;
+}
+.footer-logo{
+	width: 400px;
+	margin: 35px auto;
+	display: block;
+}
+.footer-logo img{
+	width: 100%;
+}
+.recommendation{
+	letter-spacing: 0.1em;
+}
+.copy-right{
+	margin: 70px 0 40px;
+}
